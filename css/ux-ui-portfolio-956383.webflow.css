@@ -160,7 +160,7 @@ img {
 }
 
 .link.linkfooter {
-  display: none;
+  display: block;
   margin-bottom: 10px;
   margin-left: 20px;
   padding-bottom: 5px;
