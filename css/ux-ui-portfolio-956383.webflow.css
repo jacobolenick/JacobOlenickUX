@@ -228,6 +228,10 @@ img {
   max-width: 1000px;
 }
 
+.textsection.text-sessionss {
+  display: none;
+}
+
 .spacer {
   height: 10vw;
   max-height: 200px;
@@ -1188,6 +1192,10 @@ img {
 
 .heading-12 {
   font-family: Fluro, sans-serif;
+}
+
+.heading-12.heading-0001 {
+  display: none;
 }
 
 .paragraph-6 {
