@@ -308,7 +308,7 @@ img {
 }
 
 .imagesection.vieo {
-  display: none;
+  display: block;
   background-color: transparent;
 }
 
@@ -1236,8 +1236,12 @@ img {
 }
 
 .background-video {
-  display: none;
+  display: block;
   width: 100%;
+}
+
+.background-video.novideo {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
