@@ -320,6 +320,18 @@ img {
   display: none;
 }
 
+.imagesection.photossection1 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .imagesection.imagessection2 {
   width: 70%;
   -webkit-box-orient: vertical;
@@ -1262,6 +1274,14 @@ img {
 }
 
 .image-8.figjamphoto1 {
+  width: 100%;
+}
+
+.image-8.figjamphoto1.figjam2 {
+  width: 70%;
+}
+
+.image-8.figjamphoto1.figjam2.mainfigmaphoto {
   width: 100%;
 }
 
