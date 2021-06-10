@@ -670,6 +670,22 @@ img {
   display: flex;
 }
 
+.tablerow.verticalonmobile {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.tablerow.verticalonmobile.books {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
 .table10 {
   width: 11%;
   min-width: 80px;
@@ -684,6 +700,11 @@ img {
   margin-bottom: 20px;
   font-family: Fluro, sans-serif;
   line-height: 35px;
+}
+
+.tableparagraph.books-title {
+  padding-top: 1px;
+  padding-left: 28px;
 }
 
 .image {
@@ -1248,6 +1269,14 @@ img {
   display: none;
 }
 
+.image-10 {
+  width: 25%;
+}
+
+.image-10.dobook {
+  margin-left: 30px;
+}
+
 @media screen and (max-width: 991px) {
   .link.outsidetext {
     margin-right: 30px;
@@ -1455,6 +1484,14 @@ img {
     line-height: 40px;
   }
 
+  .tablerow.verticalonmobile.books {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .maildot {
     bottom: -7px;
   }
@@ -1528,6 +1565,14 @@ img {
   .paragraph-5 {
     font-size: 20px;
     line-height: 32px;
+  }
+
+  .image-10 {
+    width: 40%;
+  }
+
+  .image-10.dobook {
+    margin-left: 0px;
   }
 }
 
@@ -1690,6 +1735,10 @@ img {
 
   .telnumber {
     letter-spacing: 1.1px;
+  }
+
+  .image-10 {
+    width: 100%;
   }
 }
 
