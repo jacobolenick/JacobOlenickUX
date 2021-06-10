@@ -232,6 +232,10 @@ img {
   display: none;
 }
 
+.textsection.brandpagenothere {
+  display: none;
+}
+
 .spacer {
   height: 10vw;
   max-height: 200px;
